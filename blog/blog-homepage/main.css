@@ -1,0 +1,28 @@
+.center-text{
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+body{
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+.homepage{
+    background-image: url(https://preview.redd.it/cesiqzrc4lm01.jpg?width=960&crop=smart&auto=webp&s=f915f6212593a390c34fc7b356c227a5a820dc2d);
+    background-size: cover;
+    height: 100vh;
+}
+
+.page-header{
+    font-size: 2rem;
+    padding-top: 10%;
+}
+
+.page-sub-header{
+    font-size: 1rem;
+}
