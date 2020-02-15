@@ -12,12 +12,6 @@ body{
     
 }
 
-.homepage{
-    background-image: url(https://preview.redd.it/cesiqzrc4lm01.jpg?width=960&crop=smart&auto=webp&s=f915f6212593a390c34fc7b356c227a5a820dc2d);
-    background-size: cover;
-    height: 100vh;
-}
-
 .page-header{
     font-size: 2rem;
     padding-top: 10%;
@@ -26,3 +20,29 @@ body{
 .page-sub-header{
     font-size: 1rem;
 }
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
