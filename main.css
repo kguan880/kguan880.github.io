@@ -4,13 +4,19 @@
 
 div {
     display: block;
+    height:auto;
 }
 
+.figure{
+  height:550px;
+  width:80%
+}
 body{
     text-align: center;
     font-size: 1rem;
     
 }
+
 
 .page-header{
     font-size: 2rem;
@@ -18,7 +24,8 @@ body{
 }
 
 .page-sub-header{
-    font-size: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .topnav {
     background-color: #333;
