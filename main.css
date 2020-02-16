@@ -1,36 +1,42 @@
 .center-text{
-    text-align: center;
+  text-align: center;
 }
 
 div {
-    display: block;
-    height:auto;
+  display: block;
+  height:auto;
 }
 
 .figure{
   height:550px;
-  width:80%
-}
-body{
+  width:80%}
+  
+  
+  body{
     text-align: center;
     font-size: 1rem;
     
-}
-
-
-.page-header{
+  }
+  
+  
+  .page-header{
     font-size: 2rem;
-    padding-top: 5%;
-    margin-left: 20px;
-}
-
-.page-sub-header{
+  }
+  
+  .header-title{
+   
+  }
+  
+  .page-sub-header{
     font-size: 2rem;
     font-weight: bold;
-}
-.topnav {
+  }
+  .topnav {
     background-color: #333;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   /* Style the links inside the navigation bar */
@@ -54,8 +60,9 @@ body{
     background-color: #4CAF50;
     color: white;
   }
-
-  header{
-      background-color: #b7b7b7;
-      text-align: left;
-  }
+      header{
+              background-color: #b7b7b7;
+              text-align: left;
+              height: 50vh;
+              width: 100%;
+          }
