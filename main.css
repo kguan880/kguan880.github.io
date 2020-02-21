@@ -21,6 +21,10 @@
     text-align: center;
   }
 
+  p {
+    text-align: left;
+  }
+
   /* The navbar container */
   .topnav {
     overflow: hidden;
