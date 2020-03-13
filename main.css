@@ -12,14 +12,15 @@
     font-family: sans-serif;
   }
   header {
-    background-color: #F1F1F1;
+    background-image: url("https://nilliawebdesign.com/images/hero-index.jpg");
     width: 100%;
-    height: 50vh;
+    height: 92vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: white
   }
 
 
