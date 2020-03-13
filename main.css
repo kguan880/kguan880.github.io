@@ -5,10 +5,11 @@
   width:80%}
   html,
   body{
-    text-align: center;
+   
     font-size: 1rem;
     display: block;
     height: 100%;
+    font-family: sans-serif;
   }
   header {
     background-color: #F1F1F1;
@@ -21,9 +22,7 @@
     text-align: center;
   }
 
-  p {
-    text-align: left;
-  }
+
 
   /* The navbar container */
   .topnav {
@@ -55,10 +54,18 @@
     }
   
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
   .box {
-    border: 2.5px solid grey;
-    margin: 30px 60px 0px 60px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+   /*
+    border: 1px solid grey;
+    */
+    text-align: center;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top:50px
   }
